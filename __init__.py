@@ -1,4 +1,6 @@
 from mycroft import MycroftSkill, intent_file_handler
+import nmap
+nmScan = nmap.PortScanner()
 
 
 class Snoopy(MycroftSkill):
